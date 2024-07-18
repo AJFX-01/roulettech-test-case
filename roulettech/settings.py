@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2ju78saiu*zv0(-b$8_sc3@41e!mpyeeoygo4r*um1&y59kfm+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '13.48.67.230'
@@ -146,7 +146,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://roulettech-test-case-s3.s3-website.eu-north-1.amazonaws.com'
 ]
 
-#CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
     'content-type',
