@@ -141,8 +141,5 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
     'http://roulettech-test-case-s3.s3-website.eu-north-1.amazonaws.com'
-    'https://roulettech-test-case-s3.s3-website.eu-north-1.amazonaws.com'
-    
 ]
